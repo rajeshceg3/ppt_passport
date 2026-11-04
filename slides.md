@@ -86,8 +86,10 @@ Makes use of JWT
 
 ### Server should generate and provide a token to client on successful authentication
 <br>
+
 - Configured to extract jwt from the authorization header request with Bearer scheme
 - Instruct passport to use jwt strategy like this,
+
 ```
 passport.use(jwtStrategy);
 ```
